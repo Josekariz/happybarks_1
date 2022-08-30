@@ -57,3 +57,13 @@ header {
 }
 /* end style nav section */
 
+/* start image slider */
+#container {
+  height: 540px;
+  width: 960px;
+  border: 20px solid rgb(173, 101, 101, 0.2);
+  margin: auto;
+  overflow: hidden;
+  box-shadow: -1px 5px 15px black;
+  box-sizing: border-box;
+}
