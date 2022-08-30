@@ -9,3 +9,12 @@ function getImages() {
     .then((json) => renderImg(json));
 }
 
+function renderImg(images) {
+  const imgContent = document.getElementById("");
+  images.message.forEach((Image) => {
+    const img = document.createElement("img");
+    img.src = Image;
+    //img.style.maxHeight = "200px";
+    imgContent.appendChild(img);
+  });
+}
