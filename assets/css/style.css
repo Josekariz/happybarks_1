@@ -143,3 +143,43 @@ figure img {
   height: 800px;
 }
 /* end description section */
+
+/* start form section */
+#form {
+  box-shadow: -1px 5px 15px rgb(255, 208, 55);
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+legend {
+  font-size: 40px;
+  color: lightcoral;
+  font-family: "Playfair Display", serif;
+}
+label {
+  padding: 10px;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size:18px ;
+}
+#submit {
+  color: lightcoral;
+  font-size: 20px;
+  font-style: italic;
+  background: black;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+#submit:hover {
+  color: lightgreen;
+  background: lightsalmon;
+}
+/* end form section */
