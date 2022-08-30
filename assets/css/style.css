@@ -9,3 +9,51 @@ body {
   background: rgba(255, 255, 224, 1);
   font-family: "Montserrat", sans-serif;
 }
+/* start style nav section */
+header {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  line-height: 80px;
+  justify-content: space-evenly;
+  background: black;
+  border-radius: 5px;
+}
+.logo {
+  text-align: center;
+  width: 90%;
+  color: white;
+  display: flex;
+}
+.logo h2 {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+}
+.logo h2:hover {
+  cursor: pointer;
+  text-decoration: underline 2px solid yellow;
+}
+.links {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+.links ul li {
+  display: inline;
+  justify-items: space-between;
+  padding: 0 10px;
+}
+.links ul li a {
+  color: white;
+  font-family: "Lora", serif;
+}
+.links ul li a:hover {
+  background-color: rgba(255, 255, 0, 0.8);
+  padding: 15px;
+  border-radius: 7px;
+}
+/* end style nav section */
+
