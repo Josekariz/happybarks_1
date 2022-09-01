@@ -223,6 +223,7 @@ input {
   top: -90px;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
+  cursor: pointer;
 }
 #comments {
   width: 98%;
