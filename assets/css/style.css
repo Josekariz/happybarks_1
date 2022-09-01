@@ -72,7 +72,7 @@ header {
 #wrapper {
   width: 100%;
   display: flex;
-  animation: slide 16s infinite;
+  animation: slide 22s infinite;
 }
 
 #wrapper img {
