@@ -198,21 +198,22 @@ input {
 
 /* start review section */
 #reviews {
-  background: lightcoral;
+  background: rgba(0, 0, 0, 0.192);
   margin: auto;
   width: 90%;
   height: 50vh;
   display: flex;
   border-radius: 10px;
-  box-shadow: -1px 5px 15px rgb(255, 208, 55);
+  box-shadow: -1px 5px 15px rgb(255, 196, 0);
   overflow-x: auto;
   justify-content: space-between;
   text-align: center;
 }
-#words{
-  background: lightcoral;
+#words {
+  background: rgba(0, 0, 0, 0.26);
   margin: auto;
-  color: white;
+  color: yellow;
+  font-weight: bold;
   width: 90%;
   flex-direction: column;
   border-radius: 10px;
