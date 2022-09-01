@@ -59,8 +59,8 @@ header {
 
 /* start image slider */
 #container {
-  height: 540px;
-  width: 960px;
+  height: 100vh;
+  width: 90%;
   border: 20px solid rgb(173, 101, 101, 0.2);
   margin: auto;
   overflow: hidden;
