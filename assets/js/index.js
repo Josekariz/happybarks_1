@@ -44,7 +44,14 @@ form.addEventListener("submit", (e) => {
   p;
 });
 
+// the todo app
 
-
- 
+const taskform = document.querySelector("#taskform");
+taskform.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const task = document.querySelector("#task");
+  const li = document.createElement("li");
+  const ul = document.querySelector("#tasklist");
+  li.innerHTML = task.value;
+  ul.appendChild(li);
 });
