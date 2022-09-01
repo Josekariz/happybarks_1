@@ -10,11 +10,31 @@ function getImages() {
 }
 
 function renderImg(images) {
-  const imgContent = document.getElementById("");
-  images.message.forEach((Image) => {
+  console.log(images);
+  images.message.forEach((image) => {
+    const imageContainer = document.createElement("div");
+    imageContainer.setAttribute("id", "imageCont");
+    imageContainer.style.margin = "auto";
     const img = document.createElement("img");
-    img.src = Image;
-    //img.style.maxHeight = "200px";
-    imgContent.appendChild(img);
+    img.src = image;
+    img.style.height = "200px";
+
+    imageContainer.appendChild(img);
+    document.getElementById("reviews").appendChild(imageContainer);
   });
 }
+
+// get data from the form
+const form = document.querySelector("#commentsform");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const com = document.querySelector("#commentbox");
+  const p = document.createElement("p");
+  p.innerHTML = `Sam Smith : ${com.value}`;
+  document.querySelector('#words').appendChild(p)
+  e.target.reset();
+
+
+
+ 
+});

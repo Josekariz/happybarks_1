@@ -27,7 +27,7 @@
             <li><a class="active" href="#logo">Home</a></li>
             <li><a href="#description">About</a></li>
             <li><a href="#form">Register Pet</a></li>
-            <li><a href="#">Feedack</a></li>
+            <li><a href="#feedback">Feedack</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
         </nav>
@@ -50,8 +50,6 @@
         <img src="assets/images/9.jpg" alt="dog" />
         <img src="assets/images/10.jpg" alt="dog" />
         <img src="assets/images/11.jpg" alt="dog" />
-        <img src="assets/images/12.jpg" alt="dog" />
-        <img src="assets/images/13.jpg" alt="dog" />
       </div>
     </div>
     <br /><br />
@@ -148,8 +146,35 @@
         </fieldset>
       </form>
     </div>
+    <br /><br />
     <!-- end form section -->
 
+    <!-- start review section -->
+    <div id="feedback">
+      <div id="comments">
+        <h2>Dont believe us? we have reviews check them out</h2>
+      </div>
+
+      <div id="reviews"></div>
+      <div id="words">
+        <p>John Doe:happy always when using this app</p>
+        <p>Sejokariz:The service is really amazig.</p>
+        <p>Anonymous12:They are just good at this</p>
+      </div>
+
+      <form id="commentsform">
+        <label for="commentbox">Join the community and share Your experience</label>
+        <input
+          type="text"
+          aria-label="Add a comment…"
+          placeholder="Add a comment…"
+          id="commentbox"
+          autocomplete="off"
+          autocorrect="off"
+        />
+        <input type="submit" id="postcomment" />
+      </form>
+    </div>
     <!-- link javascript -->
     <script src="assets/js/index.js"></script>
   </body>
