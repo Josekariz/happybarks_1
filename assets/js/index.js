@@ -23,3 +23,18 @@ function renderImg(images) {
     document.getElementById("reviews").appendChild(imageContainer);
   });
 }
+
+// get data from the form
+const form = document.querySelector("#commentsform");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const com = document.querySelector("#commentbox");
+  const p = document.createElement("p");
+  p.innerHTML = `Sam Smith : ${com.value}`;
+  document.querySelector('#words').appendChild(p)
+  e.target.reset();
+
+
+
+ 
+});
