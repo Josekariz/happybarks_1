@@ -1,9 +1,14 @@
 // fecth images and place them in the dom
 document.addEventListener("DOMContentLoaded", () => {
- getImages();
+  getImages();
 });
+
+document.getElementById("form").addEventListener("submit", () => {
+  alert("The form data will be sent to HappyBarks@gmail.com");
+});
+
 function getImages() {
-  const imgUrl = "https://dog.ceo/api/breeds/image/random/3";
+  const imgUrl = "https://dog.ceo/api/breeds/image/random/8";
   fetch(imgUrl)
     .then((resp) => resp.json())
     .then((json) => renderImg(json));
@@ -31,10 +36,30 @@ form.addEventListener("submit", (e) => {
   const com = document.querySelector("#commentbox");
   const p = document.createElement("p");
   p.innerHTML = `Sam Smith : ${com.value}`;
-  document.querySelector('#words').appendChild(p)
+  p.addEventListener("click", () => {
+    p.innerHTML = "";
+  });
+  document.querySelector("#words").appendChild(p);
   e.target.reset();
+  p;
+});
 
+// the todo app
 
+const taskform = document.querySelector("#taskform");
+taskform.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const task = document.querySelector("#task");
+  const li = document.createElement("li");
+  const ul = document.querySelector("#tasklist");
+  li.innerHTML = task.value;
+  ul.appendChild(li);
 
- 
+  li.addEventListener("click", () => {
+    li.style.textDecoration = "line-through 3px red solid";
+  });
+  li.addEventListener("dblclick", () => {
+    li.innerHTML = "";
+  });
+  event.target.reset();
 });
