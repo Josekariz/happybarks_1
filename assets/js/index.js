@@ -58,4 +58,8 @@ taskform.addEventListener("submit", (event) => {
   li.addEventListener("click", () => {
     li.style.textDecoration = "line-through 3px red solid";
   });
+  li.addEventListener("dblclick", () => {
+    li.innerHTML = "";
+  });
+  event.target.reset();
 });
