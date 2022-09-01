@@ -36,8 +36,13 @@ form.addEventListener("submit", (e) => {
   const com = document.querySelector("#commentbox");
   const p = document.createElement("p");
   p.innerHTML = `Sam Smith : ${com.value}`;
-  document.querySelector('#words').appendChild(p)
+  p.addEventListener("click", () => {
+    p.innerHTML = "";
+  });
+  document.querySelector("#words").appendChild(p);
   e.target.reset();
+  p;
+});
 
 
 
