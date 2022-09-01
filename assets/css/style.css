@@ -255,3 +255,12 @@ input {
 #postcomment:hover {
   background-color: lightgreen;
 }
+/* end form section */
+
+/* start new app dev section */
+#newdev {
+  display: flex;
+  margin: auto;
+  width: 98%;
+  overflow: hidden;
+}
