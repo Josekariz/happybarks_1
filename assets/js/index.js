@@ -8,7 +8,7 @@ document.getElementById("form").addEventListener("submit", () => {
 });
 
 function getImages() {
-  const imgUrl = "https://dog.ceo/api/breeds/image/random/3";
+  const imgUrl = "https://dog.ceo/api/breeds/image/random/8";
   fetch(imgUrl)
     .then((resp) => resp.json())
     .then((json) => renderImg(json));
