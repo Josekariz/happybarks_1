@@ -195,3 +195,61 @@ input {
   background: lightgreen;
 }
 /* end form section */
+
+/* start review section */
+#reviews {
+  background: lightcoral;
+  margin: auto;
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: -1px 5px 15px rgb(255, 208, 55);
+  overflow-x: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+#words{
+  background: lightcoral;
+  margin: auto;
+  color: white;
+  width: 90%;
+  flex-direction: column;
+  border-radius: 10px;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  top: -90px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+#comments {
+  width: 98%;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+}
+#comments > h2 {
+  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline 2px green;
+}
+
+#commentsform {
+  box-shadow: -1px 5px 15px rgb(255, 208, 55);
+  width: 80%;
+  margin: auto;
+  background: lightcoral;
+  padding: 10px;
+  border-radius: 7px;
+}
+#postcomment {
+  background-color: lightsalmon;
+  border-radius: 10px;
+}
+#commentbox{
+  width: 100%;
+}
+#postcomment:hover {
+  background-color: lightgreen;
+}
