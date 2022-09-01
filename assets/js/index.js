@@ -54,4 +54,8 @@ taskform.addEventListener("submit", (event) => {
   const ul = document.querySelector("#tasklist");
   li.innerHTML = task.value;
   ul.appendChild(li);
+
+  li.addEventListener("click", () => {
+    li.style.textDecoration = "line-through 3px red solid";
+  });
 });
