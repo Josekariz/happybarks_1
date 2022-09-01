@@ -238,10 +238,10 @@ input {
 }
 
 #commentsform {
-  box-shadow: -1px 5px 15px rgb(255, 208, 55);
+  box-shadow: -1px 5px 15px rgb(255, 196, 0);
   width: 80%;
   margin: auto;
-  background: lightcoral;
+  background: rgba(0, 0, 0, 0.432);
   padding: 10px;
   border-radius: 7px;
 }
@@ -249,7 +249,7 @@ input {
   background-color: lightsalmon;
   border-radius: 10px;
 }
-#commentbox{
+#commentbox {
   width: 100%;
 }
 #postcomment:hover {
