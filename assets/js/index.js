@@ -1,7 +1,12 @@
 // fecth images and place them in the dom
 document.addEventListener("DOMContentLoaded", () => {
- getImages();
+  getImages();
 });
+
+document.getElementById("form").addEventListener("submit", () => {
+  alert("The form data will be sent to HappyBarks@gmail.com");
+});
+
 function getImages() {
   const imgUrl = "https://dog.ceo/api/breeds/image/random/3";
   fetch(imgUrl)
