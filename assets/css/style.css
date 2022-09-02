@@ -263,6 +263,7 @@ input {
   margin: auto;
   width: 98%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #location {
