@@ -301,3 +301,32 @@ input {
   list-style: circle;
 }
 /* end new app dev section */
+
+
+/* start contact us setion */
+#contactus {
+  width: 98%;
+  background: rgb(0, 0, 0);
+  height: max-content;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+#logo{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+#logo h2 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+#logo h2:hover {
+  cursor: pointer;
+  text-decoration: underline 2px solid yellow;
+}
