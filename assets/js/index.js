@@ -15,7 +15,6 @@ function getImages() {
 }
 
 function renderImg(images) {
-  console.log(images);
   images.message.forEach((image) => {
     const imageContainer = document.createElement("div");
     imageContainer.setAttribute("id", "imageCont");

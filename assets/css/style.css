@@ -35,22 +35,22 @@ header {
   cursor: pointer;
   text-decoration: underline 2px solid yellow;
 }
-.links {
+#links {
   display: flex;
   width: 100%;
   font-size: 20px;
   text-align: center;
 }
-.links ul li {
+#links ul li {
   display: inline;
   justify-items: space-between;
   padding: 0 10px;
 }
-.links ul li a {
+#links ul li a {
   color: white;
   font-family: "Lora", serif;
 }
-.links ul li a:hover {
+#links ul li a:hover {
   background-color: rgba(255, 255, 0, 0.8);
   padding: 15px;
   border-radius: 7px;
@@ -221,7 +221,7 @@ input {
   text-align: center;
   position: relative;
   top: -90px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 20px;
   cursor: pointer;
 }
@@ -263,6 +263,7 @@ input {
   margin: auto;
   width: 98%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #location {
@@ -270,7 +271,7 @@ input {
   background: white;
   margin: auto;
   height: max-content;
-text-align: center;
+  text-align: center;
   border-radius: 20px;
   box-shadow: 0px 0px 15px black;
 }
@@ -281,6 +282,7 @@ text-align: center;
   height: max-content;
   border-radius: 20px;
   box-shadow: 0px 0px 15px black;
+  padding: 10px;
 }
 #todo h2 {
   text-align: center;
@@ -300,3 +302,47 @@ text-align: center;
   list-style: circle;
 }
 /* end new app dev section */
+
+
+/* start contact us setion */
+#contactus {
+  width: 98%;
+  background: rgb(0, 0, 0);
+  height: max-content;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+#logo{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+#logo h2 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+#logo h2:hover {
+  cursor: pointer;
+  text-decoration: underline 2px solid yellow;
+}
+#bottomnavlink{
+  margin-top: 20px;
+}
+#bottomnavlink li{
+  padding: 4px;
+}
+#bottomnavlink li a{
+  color: white;
+  font-size: 16px;
+  margin: 4px;
+  font-style: italic;
+}
+#bottomnavlink li a:hover{
+  text-decoration: underline 2px lightcoral;
+}
