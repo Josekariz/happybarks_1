@@ -330,3 +330,18 @@ input {
   cursor: pointer;
   text-decoration: underline 2px solid yellow;
 }
+#bottomnavlink{
+  margin-top: 20px;
+}
+#bottomnavlink li{
+  padding: 4px;
+}
+#bottomnavlink li a{
+  color: white;
+  font-size: 16px;
+  margin: 4px;
+  font-style: italic;
+}
+#bottomnavlink li a:hover{
+  text-decoration: underline 2px lightcoral;
+}
