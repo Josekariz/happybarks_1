@@ -2,6 +2,7 @@
 
 #### By Joseph Macharia
 ### It is a description of Happybarks 
+![image](https://github.com/Josekariz/happybarks_1/assets/108508143/ba948c36-63e0-4c6c-9727-42dd9a961482)
 
 ## Table of contents
  + [Description](#description)
